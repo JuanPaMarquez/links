@@ -72,7 +72,7 @@ const linksData = [
   {
     id: 11,
     text: 'Clean Code JavaScript',
-    icon: 'https://github.com/favicon.ico',
+    icon: 'https://github.githubassets.com/favicons/favicon-dark.png',
     url: 'https://github.com/devictoribero/clean-code-javascript?tab=readme-ov-file#objects-and-data-structures',
     categoria: 'Documentacion'
   },
@@ -124,6 +124,13 @@ const linksData = [
     icon: 'https://squish.addy.ie/icon.svg',
     url: 'https://squish.addy.ie/',
     categoria: 'Recursos de desarrollo'
+  },
+  {
+    id: 19,
+    text: 'TailwindCSS',
+    icon: 'https://tailwindcss.com/favicon.ico',
+    url: 'https://tailwindcss.com/docs/installation/using-vite',
+    categoria: 'Documentacion'
   },
 ]
 
