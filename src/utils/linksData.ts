@@ -118,6 +118,13 @@ const linksData = [
     url: 'https://www.curso-ingles.com/',
     categoria: 'Aprender ingles'
   },
+  {
+    id: 18,
+    text: 'Squish image to webp',
+    icon: 'https://squish.addy.ie/icon.svg',
+    url: 'https://squish.addy.ie/',
+    categoria: 'Recursos de desarrollo'
+  },
 ]
 
 export default linksData.sort((a, b) => a.text.localeCompare(b.text))
