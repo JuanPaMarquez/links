@@ -1,7 +1,12 @@
 const categorias = [
   "Todas las categorias",
-  "Recurso de aprendizaje",
-  "Herramienta de Desarrollo",
+  "Hosting",
+  "Documentacion",
+  "Recursos de aprendizaje",
+  "Recursos de diseño",
+  "Recursos de desarrollo",
+  "Herramientas de Base de datos",
+  "Aprender ingles"
 ]
 
 export default categorias
