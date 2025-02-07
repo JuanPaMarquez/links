@@ -160,6 +160,20 @@ const linksData = [
     url: 'https://caninclude.glitch.me/',
     categoria: 'Documentacion'
   },
+  {
+    id: 24,
+    text: 'D3JS Data Visulisacion',
+    icon: 'https://d3js.org/logo.png',
+    url: 'https://d3js.org/',
+    categoria: 'Recursos de desarrollo'
+  },
+  {
+    id: 25,
+    text: 'Chartjs Data Visulisacion',
+    icon: 'https://www.chartjs.org/favicon.ico',
+    url: 'https://www.chartjs.org/',
+    categoria: 'Recursos de desarrollo'
+  },
 ]
 
 export default linksData.sort((a, b) => a.text.localeCompare(b.text))
