@@ -146,6 +146,13 @@ const linksData = [
     url: 'https://dashboard.render.com/',
     categoria: 'Hosting'
   },
+  {
+    id: 22,
+    text: 'Convertio Image to Icon',
+    icon: 'https://convertio.co/favicon.ico',
+    url: 'https://convertio.co/es/png-ico/',
+    categoria: 'Recursos de diseño'
+  },
 ]
 
 export default linksData.sort((a, b) => a.text.localeCompare(b.text))
