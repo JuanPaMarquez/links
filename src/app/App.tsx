@@ -6,7 +6,7 @@ import { useState } from "react"
 function App() {
   const [categoriaSeleccionada, setCategoriaSeleccionada] = useState("Todas las categorias");
   const [ busqueda, setBusqueda ] = useState('')
-  const { links, linksLength } = useLinks({ busqueda, categoriaSeleccionada })
+  const links = useLinks({ busqueda, categoriaSeleccionada })
 
   const handleSearch = (e: React.ChangeEvent<HTMLInputElement>) => {
     const valor = e.target.value
@@ -28,14 +28,14 @@ function App() {
         placeholder="Titulo del link..." 
         className="border rounded-md dark:border-gray-300 border-gray-900 p-2 max-w-72 w-full mt-9"
       />
-      
+
       <select onChange={handleFilter} className="border rounded-md dark:border-gray-300 border-gray-900 dark:bg-gray-900 bg-gray-300 p-2 max-w-72 w-full mt-2">
         {categorias.map((categoria) => (
           <option key={categoria}>{categoria}</option>
         ))}
       </select>
 
-      <p className="text-center mt-1">Links cargados: {linksLength}</p>
+      <p className="text-center mt-1">Links cargados: {links.length}</p>
 
       <div className="mt-4 mx-10 max-w-200 w-full">
         {links.length === 0 && <p className="text-center">No hay links que coincidan con tu busqueda</p>}

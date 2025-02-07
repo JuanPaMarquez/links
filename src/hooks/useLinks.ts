@@ -3,7 +3,6 @@ import linksData from "../utils/linksData";
 
 export function useLinks ({ busqueda, categoriaSeleccionada }: { busqueda: string, categoriaSeleccionada: string }) {
   const [links, setLinks] = useState(linksData)
-  const [linksLength, setLinksLength] = useState(linksData.length)
 
   useEffect(() => {
     let linksFiltrados = linksData
@@ -15,9 +14,7 @@ export function useLinks ({ busqueda, categoriaSeleccionada }: { busqueda: strin
     if (busqueda !== "") {
       linksFiltrados = linksFiltrados.filter((link) => link.text.toLowerCase().includes(busqueda.toLowerCase()));
     }
-    setLinks(linksFiltrados);
-    setLinksLength(linksFiltrados.length);
-    
+    setLinks(linksFiltrados);    
   }, [busqueda, categoriaSeleccionada]);
-  return { links, linksLength }
+  return links
 }
