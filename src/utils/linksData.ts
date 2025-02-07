@@ -153,6 +153,13 @@ const linksData = [
     url: 'https://convertio.co/es/png-ico/',
     categoria: 'Recursos de diseño'
   },
+  {
+    id: 23,
+    text: 'Caninclude Html',
+    icon: 'https://caninclude.glitch.me/favicon.ico',
+    url: 'https://caninclude.glitch.me/',
+    categoria: 'Documentacion'
+  },
 ]
 
 export default linksData.sort((a, b) => a.text.localeCompare(b.text))
