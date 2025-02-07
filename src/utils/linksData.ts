@@ -132,6 +132,13 @@ const linksData = [
     url: 'https://tailwindcss.com/docs/installation/using-vite',
     categoria: 'Documentacion'
   },
+  {
+    id: 20,
+    text: 'Cloudflare',
+    icon: 'https://dash.cloudflare.com/favicon.ico',
+    url: 'https://dash.cloudflare.com/e325a9d5990cc2bfa0180475c72dc2c8/home',
+    categoria: 'Hosting'
+  },
 ]
 
 export default linksData.sort((a, b) => a.text.localeCompare(b.text))
