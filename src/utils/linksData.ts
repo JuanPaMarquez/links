@@ -151,7 +151,7 @@ const linksData = [
     text: 'Convertio Image to Icon',
     icon: 'https://convertio.co/favicon.ico',
     url: 'https://convertio.co/es/png-ico/',
-    categoria: 'Recursos de diseño'
+    categoria: 'Recursos de desarrollo'
   },
   {
     id: 23,
