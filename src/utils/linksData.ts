@@ -139,6 +139,13 @@ const linksData = [
     url: 'https://dash.cloudflare.com/e325a9d5990cc2bfa0180475c72dc2c8/home',
     categoria: 'Hosting'
   },
+  {
+    id: 21,
+    text: 'Render',
+    icon: 'https://cdn.sanity.io/images/hvk0tap5/production/c4fd92ad649864b4aa2d4985072b9779bd7e8119-128x128.png?fit=max&auto=format',
+    url: 'https://dashboard.render.com/',
+    categoria: 'Hosting'
+  },
 ]
 
 export default linksData.sort((a, b) => a.text.localeCompare(b.text))
