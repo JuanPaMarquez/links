@@ -174,6 +174,13 @@ const linksData = [
     url: 'https://www.chartjs.org/',
     categoria: 'Recursos de desarrollo'
   },
+  {
+    id: 26,
+    text: 'Motion Dev Animations',
+    icon: 'https://framerusercontent.com/images/FEF0Xp0qllCZsG1uilpmdZAzD8.png',
+    url: 'https://motion.dev/docs',
+    categoria: 'Recursos de diseño'
+  },
 ]
-
+  
 export default linksData.sort((a, b) => a.text.localeCompare(b.text))
