@@ -181,6 +181,13 @@ const linksData = [
     url: 'https://motion.dev/docs',
     categoria: 'Recursos de diseño'
   },
+  {
+    id: 27,
+    text: 'TableIcons',
+    icon: 'https://tabler.io/favicon.ico',
+    url: 'https://tabler.io/icons',
+    categoria: 'Recursos de diseño'
+  },
 ]
   
 export default linksData.sort((a, b) => a.text.localeCompare(b.text))
