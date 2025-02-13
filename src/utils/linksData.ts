@@ -184,7 +184,7 @@ const linksData = [
   {
     id: 27,
     text: 'TableIcons',
-    icon: 'https://tabler.io/favicon.ico',
+    icon: 'public/web/tableicons.ico',
     url: 'https://tabler.io/icons',
     categoria: 'Recursos de diseño'
   },
