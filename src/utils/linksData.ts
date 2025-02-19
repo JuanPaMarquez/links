@@ -188,6 +188,13 @@ const linksData = [
     url: 'https://tabler.io/icons',
     categoria: 'Recursos de diseño'
   },
+  {
+    id: 28,
+    text: 'Regex101',
+    icon: 'https://regex101.com/favicon.ico',
+    url: 'https://regex101.com/',
+    categoria: 'Recursos de desarrollo'
+  },
 ]
   
 export default linksData.sort((a, b) => a.text.localeCompare(b.text))
