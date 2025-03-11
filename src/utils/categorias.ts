@@ -6,7 +6,8 @@ const categorias = [
   "Recursos de diseño",
   "Recursos de desarrollo",
   "Herramientas de Base de datos",
-  "Aprender ingles"
+  "Aprender ingles",
+  "Herramientas de AI"
 ]
 
 export default categorias

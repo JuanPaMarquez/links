@@ -195,6 +195,13 @@ const linksData = [
     url: 'https://regex101.com/',
     categoria: 'Recursos de desarrollo'
   },
+  {
+    id: 29,
+    text: 'Claude',
+    icon: 'https://claude.ai/favicon.ico',
+    url: 'https://claude.ai/',
+    categoria: 'Herramientas de AI'
+  },
 ]
   
 export default linksData.sort((a, b) => a.text.localeCompare(b.text))
