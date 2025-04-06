@@ -1,4 +1,14 @@
-const linksData = [
+import { Categorias } from "./categorias";
+
+interface LinkData {
+  id: number;
+  text: string;
+  icon: string;
+  url: string;
+  categoria: Categorias;
+}
+
+const linksData: LinkData[] = [
   {
     id: 1,
     text: 'Base de datos TursoTech',
@@ -201,6 +211,13 @@ const linksData = [
     icon: 'https://claude.ai/favicon.ico',
     url: 'https://claude.ai/',
     categoria: 'Herramientas de AI'
+  },
+  {
+    id: 30,
+    text: 'Recharts Data Visulisacion',
+    icon: 'https://react.dev/favicon.ico',
+    url: 'https://recharts.org/',
+    categoria: 'Recursos de desarrollo'
   },
 ]
   

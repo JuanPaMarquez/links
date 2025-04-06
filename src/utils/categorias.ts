@@ -8,6 +8,8 @@ const categorias = [
   "Herramientas de Base de datos",
   "Aprender ingles",
   "Herramientas de AI"
-]
+] as const
+
+export type Categorias = (typeof categorias)[number];
 
 export default categorias

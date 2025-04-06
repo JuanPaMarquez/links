@@ -31,7 +31,7 @@ function App() {
 
       <select onChange={handleFilter} className="border rounded-md dark:border-gray-300 border-gray-900 dark:bg-gray-900 bg-gray-300 p-2 max-w-72 w-full mt-2">
         {categorias.map((categoria) => (
-          <option key={categoria}>{categoria}</option>
+          <option key={categoria} value={categoria}>{categoria}</option>
         ))}
       </select>
 
