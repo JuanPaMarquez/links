@@ -219,6 +219,13 @@ const linksData: LinkData[] = [
     url: 'https://recharts.org/',
     categoria: 'Recursos de desarrollo'
   },
+  {
+    id: 31,
+    text: 'ChartBS',
+    icon: 'https://app.chartdb.io/assets/logo-2-moG_x38V.png',
+    url: 'https://app.chartdb.io/',
+    categoria: 'Herramientas de Base de datos'
+  },
 ]
   
 export default linksData.sort((a, b) => a.text.localeCompare(b.text))
