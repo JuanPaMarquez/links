@@ -226,6 +226,13 @@ const linksData: LinkData[] = [
     url: 'https://app.chartdb.io/',
     categoria: 'Herramientas de Base de datos'
   },
+  {
+    id: 32,
+    text: 'dbdiagrama',
+    icon: 'https://cdn.holistics.io/logo-dbdiagram-notext.ico',
+    url: 'https://dbdiagram.io/home',
+    categoria: 'Herramientas de Base de datos'
+  },
 ]
   
 export default linksData.sort((a, b) => a.text.localeCompare(b.text))
